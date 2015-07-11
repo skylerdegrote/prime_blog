@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.full{
+	width: 98%;
+}
+.col-10{
+	width:98%;
+}
+.col-9{
+	width:88%;
+}
+.col-8{
+	width:78%;
+}
+.col-7{
+	width:68%;
+}
+.col-6{
+	width:58%;
+}
+.col-5{
+	width:48%;
+}
+.col-4{
+	width:38%;
+	float: left;
+}
+.col-3{
+	width:28.9%;
+	float: left;
+}
+.col-2{
+	width:18%;
+}
+.col-1{
+	width:8%;
+}

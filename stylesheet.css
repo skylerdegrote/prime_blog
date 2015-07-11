@@ -1,0 +1,165 @@
+body{
+  margin:10px;
+}
+header{
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  height: 450px;
+  margin-bottom: 15px;
+}
+footer{
+  background-color: #000000;
+  height: 200px;
+  margin:10px;
+  clear:left;
+}
+/*headings*/  
+h1{
+  font-family: nueva std, serif;
+  font-size: 20px;
+  color:#ffffff;
+  text-align: left;
+  padding-left: 100px;
+  float: left;
+  margin-top: 25px;
+}
+h1:hover{
+  color:#ffffff;
+  text-decoration: underline;
+}
+h1 a:active{
+  text-decoration: none;
+  color:#ffffff;
+}
+h1 a:visited{
+  color:#ffffff;
+  text-decoration: none;
+}
+h1 a:link{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+h2{
+  font-family: nueva std, serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 20px;
+  float: left;
+  margin-right: 200px;
+  margin-top:40px;
+  text-decoration: underline;
+  background-color: #000;
+}
+/*side bar*/
+h3{
+  font-family: optima, sans-serif;
+  font-size: 21px;
+  color: #ffffff;
+  font-style: italic;
+  float: left;
+  margin: 0 0 10px 30px;
+  background-color: #000;
+  clear:left;
+}
+aside h3:hover{
+  text-decoration: underline;
+}
+/*category by date and type*/
+h4{
+  font-family: optima, sans-serif;
+  font-size: 21px;
+  color: #ffffff;
+  font-style: italic;
+  float: right;
+  margin: 40px 30px 0 30px;
+   background-color: #000;
+}
+aside h4:hover{
+  text-decoration: underline;
+}
+
+h5{
+  font-family: optima, sans-serif;
+  font-size: 21px;
+  color: #ffffff;
+  margin: 30px 30px 0 30px;
+  float: left;
+   background-color: #000;
+
+}
+aside h5:hover{
+  text-decoration: underline;
+}
+/*post content*/
+
+h6{
+  font-family: nueva std, serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 20px;
+  margin:30px 0;
+  float: left;
+  text-decoration: underline;
+  background-color: #000;
+  clear:right;
+}
+p{
+  font-family: PT Sans, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  margin: 30px;
+}
+
+section{
+  float: left;
+}
+aside{
+  float: right;
+  margin-left: 40px;
+  height: 400px;
+  background-color: #000000;
+}
+.black{
+  height:100px;
+  background-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.post{
+  background-color: #ffffff;
+  height:auto;
+  margin-bottom: 20px;
+  padding:12px;
+  border:4px solid #000000;
+}
+
+
+ header img{
+  width:50px;
+  margin: 20px 30px 0 0;
+  float: right;
+}
+.bar{
+  background-color: #000000;
+  height:70px;
+}
+
+.line{
+  border-right:1px solid #ffffff;
+  height:350px;
+  float: left;
+  margin-top: 25px;
+}
+.post img{
+  width: 600px;
+  margin: 30px 350px;
+}
+
+
+
