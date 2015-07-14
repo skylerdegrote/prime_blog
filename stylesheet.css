@@ -2,11 +2,11 @@ body{
   margin:10px;
 }
 header{
-  background-image: url("images/header.jpg");
+  background-image: url("images/codetomorrow_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
-  height: 450px;
+  height: 550px;
   margin-bottom: 15px;
 }
 footer{

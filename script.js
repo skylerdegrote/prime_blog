@@ -51,35 +51,37 @@ $(document).ready(function(){
         $("aside").slideUp();
     });
 
-    $("#whatdevelop").click(function(){
-        $(".whatjavascript,.whatprime,.greeting,.prototyping,.htmlcss,.nocss").slideUp(1000);
-        $(".whatdevelop").slideDown(1000);
+    $("#development").click(function(){
+        $(".javascript,.css,.html,.jquery,.prototype,.bootstrap,.general").slideUp(1000);
+        $(".development").slideDown(1000);
         $("aside").slideUp();
     });
 
-    $("#prototyping").click(function(){
-        $(".whatjavascript,.whatdevelop,.whatprime,.greeting,.htmlcss,.nocss").slideUp(1000);
-        $(".prototyping").slideDown(1000);
+
+
+
+    $("#ifelsestructure").click(function(){
+        $(".whatjavascript,.whatdevelop,.console,.partsDevelop,.whatprime,.greeting,.prototyping,.htmlcss,.nocss").slideUp(1000);
+        $(".ifelsestructure").slideDown(1000);
         $("aside").slideUp();
     });
 
-    $("#nocss").click(function(){
-        $(".whatjavascript,.whatdevelop,.whatprime,.greeting,.htmlcss,.prototyping").slideUp(1000);
-        $(".nocss").slideDown(1000);
+    $("#console").click(function(){
+        $(".ifelsestructure,.whatjavascript,.prototyping,.whatdevelop,.console,.partsDevelop,.whatprime,.greeting,.prototyping,.htmlcss,.nocss").slideUp(1000);
+        $(".console").slideDown(1000);
         $("aside").slideUp();
     });
 
-    $("#htmlcss").click(function(){
-        $(".whatjavascript,.whatdevelop,.whatprime,.greeting,.css,.prototyping").slideUp(1000);
-        $(".htmlcss").slideDown(1000);
+    $("#partsDevelop").click(function(){
+        $(".ifelsestructure,.nocss,.console,.whatjavascript,.whatdevelop,.whatprime,.greeting,.htmlcss,.prototyping").slideUp(1000);
+        $(".partsDevelop").slideDown(1000);
         $("aside").slideUp();
     });
 
-    $("#whatjavascript").click(function(){
-        $(".nocss,.whatdevelop,.whatprime,.greeting,.css,.prototyping,.htmlcss").slideUp(1000);
-        $(".whatjavascript").slideDown(1000);
-        $("aside").slideUp();
-    });
+    
+
+
+
     
     $("#july").click(function(){
         $(".july").slideDown(1000);
