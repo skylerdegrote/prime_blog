@@ -108,13 +108,19 @@ h6{
   background-color: #000;
   clear:right;
 }
+
 p{
   font-family: PT Sans, sans-serif;
   font-size: 18px;
   color: #000000;
   margin: 30px;
 }
-
+blockquote{
+  font-size: 44px;
+  font-weight: bolder;
+  font-family: serif;
+  text-align: center;
+}
 section{
   float: left;
 }

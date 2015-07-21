@@ -7,11 +7,14 @@
     <script src="script.js"></script>
 </head>
 <body class="full">
-	<header>
+	<header id="top">
 		<div class="bar">
 			<h1><a href="about.html">About</a></h1>
 			<h1><a href="index.html">Blog</a></h1>
 			<img src="assets/myicons_small_nav_icon.png" alt="menu" id="menu">
+			<h1><a href="https://www.codeschool.com/" target="blank">Code School</a></h1>
+			<h1><a href="http://www.w3schools.com/" target="blank">W3Schools</a></h1>
+
 		</div>
 		<!--side bar-->
 		<aside class="col-5">
@@ -29,9 +32,9 @@
 			<div class="line"></div>
 			<div class="col-4">
 				<h6>Recent Posts</h6>
-				<h3 id="ifelsestructure">If/Else structure</h3>
-				<h3 id="console">console.log</h3>
-				<h3 id="partsDevelop">4 Parts of Development</h3>
+				<h3 id="colors">Colors</h3>
+				<h3 id="dry">D.R.Y</h3>
+				<h3 id="functionStructure">Function Structure</h3>
 			</div>
 			<div class="line"></div>
 			<div class="col-3">
@@ -43,12 +46,197 @@
 	</header>
 
 
+<!--bootstrap Col syntax post-->
+	<div class ="javascript bootstrapColStructure july">
+ 		<div class="black">
+ 			<h2>Bootstrap Column Syntax</h2>
+ 			<h4>Week 2: July 20</h4>
+ 			<h4>javascript</h4>
+ 			<h4>bootstrap</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			As mentioned before, bootstrap has 12 columns. To use those columns you need to use the col-md-# format. This stands for column-screensize-number of columns. The screen sizes are represented with xs, sm, md, and lg. As shown below, these different screen sizes are meant to represent the different types of devices. <b>xs</b> is for phones, <b>sm</b> is for tablets, <b>md</b> (which I use in my examples) represents laptop computers and <b>lg</b> is for desktop monitors. When calling the column styling, you need to remember that these are all <b>lowercase</b>. Bootstrap will not understand the class if you use camel case or capital letters.
+ 		</p>
+ 		<img src="images/19-bootstrapColStructure.png">
+ 		<img src="images/19-bootstrapScreenSizes.png">
+ 		</div>
+	</div>
+	<!--end bootstrapColStructure class and bootstrap grid post-->
+
+
+
+
+
+
+<!--bootstrap Grid post-->
+	<div class ="javascript bootstrapGrid july">
+ 		<div class="black">
+ 			<h2>The Bootstrap Grid</h2>
+ 			<h4>Week 2: July 20</h4>
+ 			<h4>javascript</h4>
+ 			<h4>bootstrap</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			If you aren't the best at color or style, or don't know where to state when it comes to designing a webpage, <a href="http://getbootstrap.com">Twitter Boostrap</a>'s got your back. Bootstrap can be complicated but lets start by talking about the grid that is built into it. The grid has an automatic 12 columns. Below, is an image that shows you how you can split your content between those 12 columns.
+ 		</p>
+ 		<img src="images/19-bootstrap_grid.png">
+ 		</div>
+	</div>
+	<!--end bootstrapGrid class and bootstrap grid post-->
+
+
+<!--document ready post-->
+	<div class ="javascript documentReady july">
+ 		<div class="black">
+ 			<h2>( document ).ready ( ) ;</h2>
+ 			<h4>Week 2: July 20</h4>
+ 			<h4>javascript</h4>
+ 			<h4>bootstrap</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			The <b>$(document).ready(function( ) { }); </b>will basically check to see if the page has loaded fully, and <b>then</b> it will execute any part of the function's code block. You should have one of these in your JavaScript file. But you don't <b>have to</b> have all of your JavaScript code within the function.
+ 		</p>
+ 		<img src="images/21-docready.png">
+ 		</div>
+	</div>
+	<!--end bootstrapColStructure class and bootstrap grid post-->
+
+
+
+
+
+
+
+
+
+
+<!--while vs for loops post-->
+	<div class ="javascript whileforloops july">
+ 		<div class="black">
+ 			<h2>While loops vs For loops</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>javascript</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			The difference between <b>while loops</b> and <b>for loops</b> is not 100% clear to me. The way I understand it, while loops are for a little while and you don't know exactly how long and for loops will run for a specific amout of time. I do know that for loops are more commonly used.
+ 		</p>
+ 		<img src="images/20-whilevsforloops_whileloop.png" alt="While the expression is true, the code will execute">
+
+ 		<img src="images/20-whilevsforloops_forloop.png" alt="For as long as the expression is true, the code will execute">
+ 		</div>
+	</div>
+	<!--end whileforloops class and while vs for loops post-->
+
+<!--colors post-->
+	<div class ="css colors july">
+ 		<div class="black">
+ 			<h2>Colors</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>css</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			When choosing <b>colors</b> for a company or for on a website, you have to have an idea of how to call specific colors with your CSS code. Most programmers will use the hexadecimal layout. This contains 6 spots that follow a pound sign (#). The first two, as shown below, represent the color red, the second pair represents green and the third, blue. with the hexadecimal layout, you can use 0-9 and a-f. 0 means that that spot has none of the color, and with f, it has the most it can have of that color. For example: #000000 is Black and #ffffff is white. #ff0000 is red, #00ff00 is the greenest of greens and #0000ff is the bluest of blues.
+ 		</p>
+ 		<p>
+ 			CSS also supports RGBA colors, HSL colors, and HSLA colors, which you can find more information about at <a href="http://www.w3schools.com/css/css3_colors.asp">W3Schools.com</a>.
+ 		</p>
+ 		<img src="images/18-colors.png" alt="color code structure">
+
+ 		</div>
+	</div>
+	<!--end colors class and colors post-->
+
+
+<!--DRY post-->
+	<div class ="javascript general dry july">
+ 		<div class="black">
+ 			<h2>D.R.Y</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>javascript</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			Staying <b>DRY</b> with JavaScript can sometimes be difficult. DRY stands for <b>D</b>on't <b>R</b>epeat <b>Y</b>ourself. This basically just means that with JavaScript, you don't want to have code that is written over and over again with only a couple of changes in each section. There are some "best practices" when it comes to this that I don't think we've learned quite yet. So more on this later.
+ 		</p>
+ 		<img src="images/16-DRY.png" alt="Difinition of D.R.Y: Don't Repeat Yourself">
+
+ 		</div>
+	</div>
+	<!--end dry class and dry post-->
+
+
+
+
+
+
+<!--function structure post-->
+	<div class ="javascript functionStructure july">
+ 		<div class="black">
+ 			<h2>Function Structure</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>javascript</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			<b>Functions</b> are a huge part of JavaScript as well. The main use for functions is to create a way to make the browser do something as a reaction to what the user is doing. For example: if the user clicks a button or a link, the browser does something. Using the proper structure in a function can make your career as a developer. If your functions break, then your webpage most likely won't do anything. Below, are two images representing 1) the correct structure of a function and 2)a good order to write your functions in. The second image is just an idea, and is not the only way to handle writing functions. It's showing that if you declare your variables that are needed in the function first, then write the logic and lastly write what the function should do and when, then you will have a good result pretty much every time.
+ 		</p>
+ 		<img src="images/14-functionStructure.png" alt="function structure">
+ 		<img src="images/14-goodfunctionorder.png" alt="good function order">
+
+ 		</div>
+	</div>
+	<!--end functionStructure class and function structure post-->
+
+
+
+
+
+<!--declaring variables post-->
+	<div class ="javascript variableDeclare july">
+ 		<div class="black">
+ 			<h2>Declaring a Variable</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>javascript</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			<b>Variables</b> are very important in JavaScript. The definition of a variable according to <a href="http://www.w3schools.com/js/js_variables.asp">W3Schools.com</a> is</p> <blockquote>"Variables are containers for storing data values."</blockquote> <p>The keyword used to declare variables is <b>var</b>. This is a very imporatant part of javascript. When you declare a variable, you need to use the keyword "var" and also give the variable a name. The name can be anything you want but there are some important rules. Mainly, the best way to write a variable name is to use camelCase and try not to use numbers at the beginning or end of the name.camelCase is using a lowercase letter for the first word in the variable name and an uppercase letter for any following word. Do not use spaces in variable names!</p><p>one thing to be aware of is that you can declare a variable and not have a value attached to it right away. More into that later, though.
+ 		</p>
+ 		<img src="images/12-variabledeclacation.png" alt="variable declaration structure">
+ 		</div>
+	</div>
+	<!--end variableDeclare class and variable declaration structure post-->
+
+
+
+
+<!--what is if/else structure post-->
+	<div class ="dayTwo general july">
+ 		<div class="black">
+ 			<h2>July 14, 2015 - Day 2</h2>
+ 			<h4>Week 1</h4>
+ 			<h4>general</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			Today was day 2 in the classroom. Something about today that I really enjoyed was the group activity around lunch time. We were given a bunch of code and had to figure out what the solution for each step was and figure out how to explain the code to with simple but correct terms. We had a similar group project yesterday as well. At the end of the project, we presented it to the class. This activity is both challenging and satisfying.  
+ 		</p>
+ 		</div>
+	</div>
+	<!--end dayTwo general class and day two post-->
+
+
 
 <!--what is if/else structure post-->
 	<div class ="javascript ifelsestructure july">
  		<div class="black">
  			<h2>If/Else Statements - Structure</h2>
- 			<h4>July 13, 2015</h4>
+ 			<h4>Week 1</h4>
  			<h4>javascript</h4>
 		</div>
  		<div class="post">
@@ -58,15 +246,16 @@
  		<img src="images/10-ifelsestructure.png" alt="if and else statement structure">
  		</div>
 	</div>
-	<!--end javascript/whatjavascript class and end parts of development post-->
+	<!--end javascript/ifelsestructure class and if else structure post-->
 
 
 	<!--what is console.log post-->
-	<div class ="general console july">
+	<div class ="general javascript console july">
  		<div class="black">
  			<h2>console.log</h2>
- 			<h4>July 13, 2015</h4>
+ 			<h4>Week 1</h4>
  			<h4>general</h4>
+ 			<h4>JavaScript</h4>
 		</div>
  		<div class="post">
  		<p>
@@ -102,6 +291,23 @@
  		</div>
 	</div>
 	<!--end javascript/whatjavascript class and end parts of development post-->
+
+
+<!--what is parts of development post-->
+	<div class ="general dayOne july">
+ 		<div class="black">
+ 			<h2>First Day at Prime</h2>
+ 			<h4>July 13, 2015</h4>
+ 			<h4>general</h4>
+		</div>
+ 		<div class="post">
+ 		<p>
+ 			Today was our first day in the classroom at Prime. The classroom portion is located in Bloomington, MN. Oh gosh where do I begin! It was an amazing day and an awesome experience. The Mayor of Minneapolis came and talked to us. We socialized and learned about our individual strengths in the morning and then the afternoon was filled with knowledge and games. It was a lot of fun and I am definately looking forward to tomorrow! 
+ 		</p>
+ 		</div>
+	</div>
+	<!--end javascript/whatjavascript class and end parts of development post-->
+
 
 	<!--what is javascript post-->
 	<div class ="javascript whatjavascript july">
@@ -217,6 +423,7 @@
  		</div>
 	</div>
 	<!--end general class-->
-	<!--end greeting post-->        
+	<!--end greeting post--> 
+	<h7><a href="#top">Back to the Top</a></h7>       
 </body>
 </html>
